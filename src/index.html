@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>Your Company</title>
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background:radial-gradient(maroon,black);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+h1{
+    font-family: 'Times New Roman';
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+nav a:hover{
+    color: yellow;
+}
+footer {
+    background:radial-gradient(maroon,black);
+    color: #fff;
+    text-align: center;
+    padding: 0.3em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+</style>
+
+<body>
+    <header>
+        <img id="logo" src="../../public/assets/delicuousLogo.png">
+        <center><h1>Delicious Bites</h1></center>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="c:\Users\MIH\Downloads\WhatsApp Video 2024-02-04 at 10.39.12 AM.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="content">
+
+            <h1>Welcome to Delicious Bites</h1>
+            <p>Explore and enjoy the Food</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Delicious Bites | Contact us at info@deliciousbites.com</p>
+    </footer>
+
+</body>
+</html>

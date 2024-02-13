@@ -1,0 +1,227 @@
+</html>
+<head>
+    <title>Menu - Your Restaurant Name</title>
+</head>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background:radial-gradient(maroon,black);
+            color:#fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        h2 {
+            color:maroon;
+        }
+
+        .menu-item {
+      width: 200px;
+      height: 250px;
+      margin: 10px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.1);
+    }
+
+        .order-btn {
+            background: radial-gradient(maroon,black);
+            color:#fff;
+            padding: 8px 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .order-btn:hover{
+    transform: scale(1.2)translatex(10px);
+    transform: .4s;
+    background-color: black;
+ }
+
+
+        footer {
+            background: radial-gradient(maroon,black);
+            color: #fff;
+            text-align: center;
+            padding: 0.3rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .menu-img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .menu-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .fade-in {
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+        from {
+        opacity: 0;
+        }
+        to {
+        opacity: 1;
+        }
+    }
+    /* Added by NA */
+    .item-row {
+    display: flex;
+}
+img{
+    height: 120px;
+    width: 100px;
+}
+    </style>
+<body>
+    <header>
+        <h1>MENU CARD</h1>
+    </header>
+
+    <section>
+        <h2>Pizzas</h2>
+        <div class="item-row">
+            <div class="menu-item">
+                <img src="../public/images/pizza/margheritaPizza.jpg" alt="Margherita Pizza" class="menu-img">
+                <p><strong>Margherita Pizza</strong><br>- $10.99</p>
+                <a href="pay.html" class="order-btn">Order Now</a>
+            </div>
+            <div class="menu-item">
+                <img src="../public/images/pizza/pizza.webp" alt="Meat Lover's Pizza" class="menu-img">
+                <p><strong>Meat Lover's Pizza</strong><br> - $12.99</p>
+                <a href="pay.html" class="order-btn">Order Now</a>
+            </div>
+            <div class="menu-item">
+                    <img src="../public/images/pizza/pizza2.jpg" alt="Meat Lover's Pizza" class="menu-img">
+                    <p><strong>Meat Lover's Pizza</strong><br> - $12.99</p>
+                    <a href="pay.html" class="order-btn">Order Now</a>
+            </div>
+            <div class="menu-item">
+                    <img src="../public/images/pizza/veggie.webp" alt="Veggie Supreme Pizza" class="menu-img">
+                    <p><strong>Veggie Supreme Pizza</strong><br> - $11.99</p>
+                    <a href="pay.html" class="order-btn">Order Now</a>
+            </div>
+        </div>
+        <h2>Burgers</h2>
+                <div class="item-row">
+                    <div class="menu-item">
+                        <img src="../public/images/burgers/classicBurger.jpg" alt="Classic Beef Burger" class="menu-img">
+                        <p><strong>Classic Beef Burger</strong><br>- $8.99</p>
+                        <a href="pay.html" class="order-btn">Order Now</a>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="../public/images/burgers/cheeseBurger.jpg" alt="Cheese Lover's Burger" class="menu-img">
+                        <p><strong>Cheese Lover's Burger</strong><br> - $9.99</p>
+                        <a href="pay.html" class="order-btn">Order Now</a>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="../public/images/burgers/vegeterianBurger.jpg" alt="Vegetarian Delight Burger" class="menu-img">
+                        <p><strong>Vegetarian Delight Burger</strong><br> - $7.99</p>
+                        <a href="pay.html" class="order-btn">Order Now</a>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="../public/images/burgers/SpicyChicken_Burger.webp" alt="Spicy Chicken Burger" class="menu-img">
+                        <p><strong>Spicy Chicken Burger</strong><br> - $10.99</p>
+                        <a href="pay.html" class="order-btn">Order Now</a>
+                    </div>
+                </div>
+                <h2>Bakery Items</h2>
+                <div class="item-row">
+                    <div class="menu-item">
+                        <img src="../public/images/bakery_items/Croissants.jpg" alt="Croissant" class="menu-img">
+                        <p><strong>Croissant</strong> - Buttery and flaky. - $2.99</p>
+                        <a href="pay.html" class="order-btn">Order Now</a>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="../public/images/bakery_items/chocolateCookies.jpeg" alt="Chocolate Chip Cookie" class="menu-img">
+                        <p><strong>Chocolate Chip Cookie</strong><br>  - Classic and chewy. <br> - $1.49</p>
+                        <a href="pay.html" class="order-btn">Order Now</a>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="../public/images/bakery_items/CinnamonRolls.webp" alt="Cinnamon Roll" class="menu-img">
+                        <p><strong>Cinnamon Roll</strong> <br> - Sweet and gooey.<br>  - $3.49</p>
+                        <a href="pay.html" class="order-btn">Order Now</a>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="../public/images/bakery_items/muffin.webp" alt="Blueberry Muffin" class="menu-img">
+                        <p><strong>Blueberry Muffin</strong> <br> - Bursting with blueberries.<br>  - $2.99</p>
+                        <a href="pay.html" class="order-btn">Order Now</a>
+                    </div>
+                </div>
+        <h2>Soft Drinks</h2>
+        <div class="item-row">
+            <div class="menu-item">
+                <img src="../public/images/drinks/cocaCola.jpg" alt="CocaCola" class="menu-img">
+                <p><strong>Coca-Cola</strong><br>- Classic cola taste.<br> - $2.49</p>
+                <a href="pay.html" class="order-btn">Order Now</a>
+            </div>
+
+            <div class="menu-item">
+                <img src="../public/images/drinks/pepsi.jpg" alt="Pepsi" class="menu-img">
+                <p><strong>Pepsi</strong><br>- Refreshing and bold.<br> - $2.29</p>
+                <a href="pay.html" class="order-btn">Order Now</a>
+            </div>
+
+            <div class="menu-item">
+                <img src="../public/images/drinks/sprite.jpg" alt="Sprite" class="menu-img">
+                <p><strong>Sprite</strong><br>- Crisp lemon-lime flavor.<br> - $2.29</p>
+                <a href="pay.html" class="order-btn">Order Now</a>
+            </div>
+            <div class="menu-item">
+                <img src="../public/images/drinks/icedTea.jpg"alt="IcedTea" class="menu-img">
+                <p><strong>Iced Tea</strong><br> - Sweetened or unsweetened.<br> - $2.19</p>
+                <a href="pay.html" class="order-btn">Order Now</a>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; 2024 Delicious Bites | Contact us at info@deliciousbites.com</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
